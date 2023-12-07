@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url(bg.jpg);
+}
+
+/* Header styles */
+.App-header {
+  background-color: #4caf50; /* Green header background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 2vmin); /* Larger font size for header */
+  color: white;
+}
+
+/* Link styles */
+.App-link {
+  color: #61dafb;
+}
+
+/* Container styles */
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: whitesmoke; /* Light gray background */
+}
+
+.app-content {
+  text-align: center;
+}
+
+/* App Button styles */
+.app-button {
+  width: 200px;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  cursor: pointer;
+  background-color: #4caf50; /* Green button */
+  color: #fff;
+  border: 2px solid #4caf50;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.app-button:hover {
+  background-color: #45a049;
+  border-color: #45a049;
+}
+
+/* App Container styles */
+.create-post-container {
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  animation: fadeIn 0.5s ease; /* Fade-in animation */
+}
+
+.create-post-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Form styles */
+.create-post-container Form {
+  margin-top: 1.5rem;
+}
+
+.create-post-container Form.Control {
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.create-post-button,
+.all-posts-button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.create-post-button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+/* Alert styles */
+.form-alert {
+  margin-top: 1rem;
+}
+
+/* Animation styles */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
